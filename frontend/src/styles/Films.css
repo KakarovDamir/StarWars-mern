@@ -1,0 +1,68 @@
+.fcontainer {
+margin: 0 auto;
+padding: 20px;
+text-decoration: none;
+background: url('https://i.gifer.com/Ir8.gif') no-repeat center center fixed;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+}
+
+.fcontainer h1 {
+text-align: center;
+color: #eeff00;
+margin-top: 2%;
+}
+
+.fcontainer ul {
+list-style: none;
+display: flex;
+flex-direction: column;
+padding: 0;
+}
+
+.fcontainer li {
+background-color: #000000;
+text-decoration: none;
+padding: 10px;
+border-radius: 5px;
+box-shadow: 0 0px 10px 1px rgb(204, 255, 0);
+width: 400px;
+margin-top: 2%;
+margin-left: 35%;
+}
+
+
+.flink{
+    color: rgb(212, 210, 210);
+    text-decoration: none;
+    font-size: large;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.flink:hover{
+    text-decoration: underline;
+    color: rgb(246, 247, 249);
+}
+
+.prevb{
+    margin-left: 30%;
+}
+.nextb{
+    margin-left: 34.5%;
+}
+.prevb, .nextb {
+    background-color: #1a1a1a;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .prevb:disabled, .nextb:disabled {
+    background-color: #242424;
+    cursor: not-allowed;
+  }

@@ -1,0 +1,18 @@
+body{
+    background-color: black;
+}
+body::-webkit-scrollbar {
+    width: 15px;
+    padding: 0;
+    margin-left: -1%;
+    background-color: #2c2b2b;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #5d5c5c;
+  }
+  
+  body::-webkit-scrollbar-thumb:hover {
+    background-color: none;
+  }
+  
