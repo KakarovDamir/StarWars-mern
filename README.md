@@ -15,3 +15,6 @@ This application provides information about Star Wars films, characters, planets
 3. Установите зависимости бэкенда: `cd backend && npm install`
 4. Запустите бэкенд: `npm run dev`
 5. Запустите фронтенд: `npm start`
+
+## Deploy
+1. only backend `https://starwars-mern.onrender.com/jedis`
