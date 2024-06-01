@@ -1,39 +1,116 @@
-  .main_header {
-    display: flex; 
-    justify-content: space-between; 
-    align-items: center; 
-    padding: 21px; 
-    background-color: #292525; 
-    width: 97.8%;
-    margin-left: -1%;
-    margin-top: -0.5%;
-    color: white;
-    border: 3px solid #292525;
-  }
+.main_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 21px;
+  background-color: #292525;
+  width: 100%;
+  color: white;
+  border: 3px solid #292525;
+  box-sizing: border-box;
+}
 
-.main_header img{
+.main_header img {
   margin-left: 2%;
   width: 10%;
-  height: 10%;
+  height: auto;
 }
-  
+
+.navigation_list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav_link {
+  text-decoration: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: inherit;
+  padding: 10px 20px;
+  transition: color 0.2s ease-in-out;
+}
+
+.nav_link:hover {
+  color: #efd003;
+}
+
+.burger_menu {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  margin-right: 2%;
+}
+
+.burger_menu div {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 4px;
+  transition: 0.4s;
+}
+
+.burger_menu.open div:nth-child(1) {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.burger_menu.open div:nth-child(2) {
+  opacity: 0;
+}
+
+.burger_menu.open div:nth-child(3) {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+
+@media (max-width: 768px) {
+  .main_header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .main_header img {
+    width: 20%;
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
   .navigation_list {
-    list-style: none; 
-    margin: 0; 
-    padding: 0; 
-    display: flex; 
+    flex-direction: column;
+    width: max-content;
+    height: max-content;
+    display: none;
+    align-items: flex-start;
   }
-  
+
+  .navigation_list.show {
+    display: flex;
+  }
+
   .nav_link {
-    text-decoration: none; 
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    color: inherit; 
-    padding: 10px 20px; 
-    transition: color 0.2s ease-in-out; 
+    font-size: 18px;
+    padding: 10px 0;
+    width: 100%;
+    text-align: left;
   }
-  
-  .nav_link:hover {
-    color: #efd003; 
+
+  .burger_menu {
+    display: flex;
+    align-self: flex-end;
   }
+}
+
+@media (max-width: 576px) {
+  .main_header {
+    padding: 15px;
+  }
+
+  .main_header img {
+    width: 25%;
+  }
+
+  .nav_link {
+    font-size: 16px;
+  }
+}
