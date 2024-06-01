@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/StarWars-mern/static/css/main.802eea9d.css",
+    "main.js": "/StarWars-mern/static/js/main.327db067.js",
+    "static/media/logo.png": "/StarWars-mern/static/media/logo.6d1f8d5e9d02e9af8ff3.png",
+    "index.html": "/StarWars-mern/index.html",
+    "main.802eea9d.css.map": "/StarWars-mern/static/css/main.802eea9d.css.map",
+    "main.327db067.js.map": "/StarWars-mern/static/js/main.327db067.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.802eea9d.css",
+    "static/js/main.327db067.js"
+  ]
+}
