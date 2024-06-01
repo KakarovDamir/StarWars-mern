@@ -9,7 +9,7 @@ const Characters = () => {
     const [characters, setCharacters] = useState([]);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
-    const [currentPageUrl, setCurrentPageUrl] = useState('http://localhost:5000/people/');
+    const [currentPageUrl, setCurrentPageUrl] = useState('https://starwars-mern.onrender.com/people/');
     const [nextPageUrl, setNextPageUrl] = useState(null);
     const [previousPageUrl, setPreviousPageUrl] = useState(null);
 

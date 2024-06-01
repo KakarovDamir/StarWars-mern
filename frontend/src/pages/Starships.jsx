@@ -9,7 +9,7 @@ const Starships = () => {
   const [starships, setStarships] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const [currentPageUrl, setCurrentPageUrl] = useState('http://localhost:5000/starships/');
+  const [currentPageUrl, setCurrentPageUrl] = useState('https://starwars-mern.onrender.com/starships/');
   const [nextPageUrl, setNextPageUrl] = useState(null);
   const [previousPageUrl, setPreviousPageUrl] = useState(null);
 

@@ -9,7 +9,7 @@ const Planets = () => {
   const [planets, setPlanets] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const [currentPageUrl, setCurrentPageUrl] = useState('http://localhost:5000/planets/');
+  const [currentPageUrl, setCurrentPageUrl] = useState('https://starwars-mern.onrender.com/planets/');
   const [nextPageUrl, setNextPageUrl] = useState(null);
   const [previousPageUrl, setPreviousPageUrl] = useState(null);
 

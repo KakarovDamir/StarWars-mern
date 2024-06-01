@@ -36,6 +36,7 @@ function App() {
         <Route path="/starships/:starshipId"    element={<StarshipDetail/>}/>
         <Route path="/vehicles"                 element={<Vehicles/>} />
         <Route path="/vehicles/:vehicleId"      element={<VehiclesDetail/>}/>
+        <Route path="*"                         element={<Home/>} />
       </Routes>
     </Router>
   );

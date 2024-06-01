@@ -17,4 +17,5 @@ This application provides information about Star Wars films, characters, planets
 5. Запустите фронтенд: `npm start`
 
 ## Deploy
-1. only backend `https://starwars-mern.onrender.com/jedis`
+- [backend](https://starwars-mern.onrender.com/jedis)
+- [frontend](https://kakarovdamir.github.io/StarWars-mern/)

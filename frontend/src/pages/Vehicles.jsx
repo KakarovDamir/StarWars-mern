@@ -8,7 +8,7 @@ const Vehicles = () => {
   const [vehicles, setVehicles] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const [currentPageUrl, setCurrentPageUrl] = useState('http://localhost:5000/vehicles/');
+  const [currentPageUrl, setCurrentPageUrl] = useState('https://starwars-mern.onrender.com/vehicles/');
   const [nextPageUrl, setNextPageUrl] = useState(null);
   const [previousPageUrl, setPreviousPageUrl] = useState(null);
 
